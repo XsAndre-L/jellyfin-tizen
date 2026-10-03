@@ -1,0 +1,920 @@
+[
+  {
+    "name": "arr/arr-links.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/arr/arr-links.js",
+    "bytes": 40746,
+    "sha256": "601223d6aae1ffde1bc57016d0f02f04c4d2c289ec6095da22f3d799cd352ac8"
+  },
+  {
+    "name": "arr/arr-tag-links.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/arr/arr-tag-links.js",
+    "bytes": 8788,
+    "sha256": "2c8ed9dd538747b35cd053bf51f0aa5f330cc5357f643e95eab18e49670bb272"
+  },
+  {
+    "name": "arr/calendar/calendar-custom-tab.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/arr/calendar/calendar-custom-tab.js",
+    "bytes": 6142,
+    "sha256": "7eab504c4e6fec1df13f4589ab3d1971ec6ec2f9d8a929294801895301f4f52f"
+  },
+  {
+    "name": "arr/calendar/calendar-page-actions.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/arr/calendar/calendar-page-actions.js",
+    "bytes": 8081,
+    "sha256": "318cb1300e63561994660cd4c9a93b12ee49ad3f13046564d1e8b1509a862497"
+  },
+  {
+    "name": "arr/calendar/calendar-page-data.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/arr/calendar/calendar-page-data.js",
+    "bytes": 17964,
+    "sha256": "c2a668dbbeec3f0ee18b06dc6c79e4f026ad8909dd8556742e0ec55be72414cc"
+  },
+  {
+    "name": "arr/calendar/calendar-page-init.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/arr/calendar/calendar-page-init.js",
+    "bytes": 10912,
+    "sha256": "a1b2584e263f02926457a41f836579c47a88748ff2c51962deb5092290fcd66f"
+  },
+  {
+    "name": "arr/calendar/calendar-page-render-events.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/arr/calendar/calendar-page-render-events.js",
+    "bytes": 22102,
+    "sha256": "015ea42da9c2569555e44a10481750d88e07b603c787f4135a9aeb314fe9c12f"
+  },
+  {
+    "name": "arr/calendar/calendar-page-render-views.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/arr/calendar/calendar-page-render-views.js",
+    "bytes": 23968,
+    "sha256": "f158bf5bd1319d0cdc04705dac29ce9984732c17939a75436c891c15a0211345"
+  },
+  {
+    "name": "arr/calendar/calendar-page-styles.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/arr/calendar/calendar-page-styles.js",
+    "bytes": 25009,
+    "sha256": "a12e7718391019cdeb26c75312a078ba13ed8c07eb94b4c82cb0c589209ca414"
+  },
+  {
+    "name": "arr/requests/requests-custom-tab.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/arr/requests/requests-custom-tab.js",
+    "bytes": 7428,
+    "sha256": "22c4ef6b99dda598c2597afa126d8279bada41dcba335d2c173ad22bec127bd7"
+  },
+  {
+    "name": "arr/requests/requests-page-actions.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/arr/requests/requests-page-actions.js",
+    "bytes": 2668,
+    "sha256": "12aa8f0c878985bc008a181fb62944b9bda8d177355cde803df3f77293ba4ac8"
+  },
+  {
+    "name": "arr/requests/requests-page-data.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/arr/requests/requests-page-data.js",
+    "bytes": 13063,
+    "sha256": "44539d68c1f421dcc6e00681e6a633b1a4397673818f9f1b4f07fbf09c0aded4"
+  },
+  {
+    "name": "arr/requests/requests-page-init.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/arr/requests/requests-page-init.js",
+    "bytes": 15856,
+    "sha256": "35c0e54bc46c87ed332557c970ec8d0cc8587527aeeb25ff1b276eeaf3d16d43"
+  },
+  {
+    "name": "arr/requests/requests-page-render-cards.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/arr/requests/requests-page-render-cards.js",
+    "bytes": 23496,
+    "sha256": "43cc10e95ba00dd3ae08f644f716cafb8e00f208f66039277a97cc88988a6770"
+  },
+  {
+    "name": "arr/requests/requests-page-render-helpers.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/arr/requests/requests-page-render-helpers.js",
+    "bytes": 14606,
+    "sha256": "aa20a3ef0d2cfcd7c3983595950bcd57830b41fc2d33cfa5883642de3dba60af"
+  },
+  {
+    "name": "arr/requests/requests-page-render.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/arr/requests/requests-page-render.js",
+    "bytes": 21231,
+    "sha256": "516932ae6013efa1a8b506742f20f4175ef8524cb913863a1cc8f771d3e5504c"
+  },
+  {
+    "name": "arr/requests/requests-page-styles.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/arr/requests/requests-page-styles.js",
+    "bytes": 19347,
+    "sha256": "2206141903454710d821c6050098d76704ca71e68615fe5abf29e57d7e1d26ff"
+  },
+  {
+    "name": "awards/awards.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/awards/awards.js",
+    "bytes": 25579,
+    "sha256": "7df67464ff9fbd6da8224f1ec767f560b29a943737403ff18ac7a57a684f28cc"
+  },
+  {
+    "name": "core/api-client.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/core/api-client.js",
+    "bytes": 23242,
+    "sha256": "5eadd26b89ae4b7f997107b344339c32badc98bc5344f438400a66270f8c7336"
+  },
+  {
+    "name": "core/dom-observer.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/core/dom-observer.js",
+    "bytes": 14090,
+    "sha256": "ffa1ac18d00fff3178be724feecd8329323182d4a96436552a1d6e209ce7201f"
+  },
+  {
+    "name": "core/lifecycle.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/core/lifecycle.js",
+    "bytes": 7628,
+    "sha256": "e62137085f70aec16ded880b4977719beee8aad96659f4557f12d394162045e6"
+  },
+  {
+    "name": "core/media-language.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/core/media-language.js",
+    "bytes": 14101,
+    "sha256": "cd674a1698e6f75f132bcf0053fccde5c3c363024c1e2f009de0c9107275e8cc"
+  },
+  {
+    "name": "core/navigation.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/core/navigation.js",
+    "bytes": 12562,
+    "sha256": "d671c16615bc79e4e3438873d9bb2af3af3370629aad96997205eb17b2810485"
+  },
+  {
+    "name": "core/session.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/core/session.js",
+    "bytes": 12697,
+    "sha256": "b6ef6172f081be448aadbdd081ae4b40996a7318b98132fe63fb36ef472e6f6c"
+  },
+  {
+    "name": "core/tag-renderer-base.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/core/tag-renderer-base.js",
+    "bytes": 25575,
+    "sha256": "649bd8457567a3112e14778ee7729096e625f39ef609a1449b7d0796307a7366"
+  },
+  {
+    "name": "core/ui-kit.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/core/ui-kit.js",
+    "bytes": 9858,
+    "sha256": "031bad129d74dfb336b920ae709ef97f17f4e022d9abdd6b4bd1e0104575963f"
+  },
+  {
+    "name": "elsewhere/elsewhere.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/elsewhere/elsewhere.js",
+    "bytes": 50928,
+    "sha256": "cf5e32a41aa544942b7ae847b8bda0b6c4fe445ca4d15be1e795f48251a96a33"
+  },
+  {
+    "name": "elsewhere/reviews.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/elsewhere/reviews.js",
+    "bytes": 65589,
+    "sha256": "2fc91c15f1138a6f251a81c0f635719fc2e7f8054d2b789c6f7c971306b0f8d4"
+  },
+  {
+    "name": "enhanced/bookmarks/bookmarks-library-init.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/enhanced/bookmarks/bookmarks-library-init.js",
+    "bytes": 5504,
+    "sha256": "1c116ed5eaa73b8f787845abeea8fcafe4897ca0d0fb846f1bb99132130bc94e"
+  },
+  {
+    "name": "enhanced/bookmarks/bookmarks-library-items.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/enhanced/bookmarks/bookmarks-library-items.js",
+    "bytes": 15635,
+    "sha256": "a0749861b9320830bcd361263fc61979bce8fc28891bbb70222be7ea2f567fa2"
+  },
+  {
+    "name": "enhanced/bookmarks/bookmarks-library-modals.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/enhanced/bookmarks/bookmarks-library-modals.js",
+    "bytes": 16188,
+    "sha256": "8dde9715155bddf86be2696bb4c7d743069ce8d7f506fc3a58e029fcdc2f1e27"
+  },
+  {
+    "name": "enhanced/bookmarks/bookmarks-library-page.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/enhanced/bookmarks/bookmarks-library-page.js",
+    "bytes": 10986,
+    "sha256": "ffd14096df7798fae325d163e859a4a65f984500a3919fe9e2ccee82a2f2634e"
+  },
+  {
+    "name": "enhanced/bookmarks/bookmarks-library-render.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/enhanced/bookmarks/bookmarks-library-render.js",
+    "bytes": 13048,
+    "sha256": "eb727210334683adf9b6eb0604235e58f5d974549b1462ee07f7a96f583dbf71"
+  },
+  {
+    "name": "enhanced/bookmarks/bookmarks-library-replacements.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/enhanced/bookmarks/bookmarks-library-replacements.js",
+    "bytes": 15606,
+    "sha256": "f437f1a1f8bc75d7d7f8116edfb8d495b2200687a73e7d94f48864237a59daf2"
+  },
+  {
+    "name": "enhanced/bookmarks/bookmarks-library-styles.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/enhanced/bookmarks/bookmarks-library-styles.js",
+    "bytes": 19540,
+    "sha256": "93d08f45080a612071605d2186266060004d255aebbc562d666cddf43aa3a371"
+  },
+  {
+    "name": "enhanced/bookmarks/bookmarks.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/enhanced/bookmarks/bookmarks.js",
+    "bytes": 40910,
+    "sha256": "3653118ff1822cdc344154c56cd3b1d21422d2ae2b7afe4b2f326f5e0f80050a"
+  },
+  {
+    "name": "enhanced/config.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/enhanced/config.js",
+    "bytes": 8366,
+    "sha256": "51be2f7ae61b69c442d3c08f6d5ef19e4e5e716b58ad454cd73390ab8f36c15a"
+  },
+  {
+    "name": "enhanced/events.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/enhanced/events.js",
+    "bytes": 18069,
+    "sha256": "9bfb6f12146cdb21765d069890553482e98e45b02e5f63e2d432ace8e25f052c"
+  },
+  {
+    "name": "enhanced/features-random-button.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/enhanced/features-random-button.js",
+    "bytes": 8429,
+    "sha256": "ed77a98a83185cef24a69a4bf6b008d77f729df38fd045a63c76b31f3e03b7f7"
+  },
+  {
+    "name": "enhanced/helpers.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/enhanced/helpers.js",
+    "bytes": 40569,
+    "sha256": "176ed8e6f18649b73fea18803ae39581f560e852f88a1c2495292c29b16cecac"
+  },
+  {
+    "name": "enhanced/hiddencontent/hidden-content-buttons.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/enhanced/hiddencontent/hidden-content-buttons.js",
+    "bytes": 10426,
+    "sha256": "b19b2b35eb0b871565fe3c1e0763ef1784f9e8429db8d01b6ec96d0e807c8177"
+  },
+  {
+    "name": "enhanced/hiddencontent/hidden-content-custom-tab.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/enhanced/hiddencontent/hidden-content-custom-tab.js",
+    "bytes": 5680,
+    "sha256": "b48cf294bbeb4f8d34449ff43b3a2fe9c575ff07f0b8835d35392bc1655bb266"
+  },
+  {
+    "name": "enhanced/hiddencontent/hidden-content-data.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/enhanced/hiddencontent/hidden-content-data.js",
+    "bytes": 21888,
+    "sha256": "42241e97b9950c0112b7d14bb8e7311be2c731d8b5fe5dec62df034e8f618c9c"
+  },
+  {
+    "name": "enhanced/hiddencontent/hidden-content-dialogs.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/enhanced/hiddencontent/hidden-content-dialogs.js",
+    "bytes": 16705,
+    "sha256": "95001b205490c387c26d4e7b5790af63c09aec1f9a0d2a1f9600c9d0aa5cecc9"
+  },
+  {
+    "name": "enhanced/hiddencontent/hidden-content-filter.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/enhanced/hiddencontent/hidden-content-filter.js",
+    "bytes": 24989,
+    "sha256": "4a2f8620d95e49755e634df091c77234dd80ed68d93e90f6db3ef2cd9b91bcd5"
+  },
+  {
+    "name": "enhanced/hiddencontent/hidden-content-init.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/enhanced/hiddencontent/hidden-content-init.js",
+    "bytes": 3180,
+    "sha256": "55f246b42a666f7b3bfa719c7f9a8c48399fc8588e0f80dc0e70aef28b683bcc"
+  },
+  {
+    "name": "enhanced/hiddencontent/hidden-content-page-admin.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/enhanced/hiddencontent/hidden-content-page-admin.js",
+    "bytes": 21739,
+    "sha256": "310959878df1f5beb3a2d5e652a8f6baecd8c80bec70e1fe4421da222f222123"
+  },
+  {
+    "name": "enhanced/hiddencontent/hidden-content-page-cards.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/enhanced/hiddencontent/hidden-content-page-cards.js",
+    "bytes": 19534,
+    "sha256": "03b8bbe0f343d8724fd9f24ab8afbed2b51b6a82d973cb617b09e390b58ad600"
+  },
+  {
+    "name": "enhanced/hiddencontent/hidden-content-page-init.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/enhanced/hiddencontent/hidden-content-page-init.js",
+    "bytes": 3711,
+    "sha256": "1ed8fbed16f50fe573568b8bdec7df1a06b746c2b5f73753b222132bb57e8452"
+  },
+  {
+    "name": "enhanced/hiddencontent/hidden-content-page-nav.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/enhanced/hiddencontent/hidden-content-page-nav.js",
+    "bytes": 12587,
+    "sha256": "72ae5558ff9edb7cdf1b87e952dcfe3e0be955f2f8b9bb827e42adb541f6e607"
+  },
+  {
+    "name": "enhanced/hiddencontent/hidden-content-page-render.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/enhanced/hiddencontent/hidden-content-page-render.js",
+    "bytes": 20512,
+    "sha256": "f544418f2adb133f3faffeeddfda9932b3371a4ec6a1c9d8539636b41f3e0b10"
+  },
+  {
+    "name": "enhanced/hiddencontent/hidden-content-page-state.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/enhanced/hiddencontent/hidden-content-page-state.js",
+    "bytes": 5875,
+    "sha256": "5f82196de2b463262e38a5e4af46a9d97b8453a3f46e60c742622e865c8ef220"
+  },
+  {
+    "name": "enhanced/hiddencontent/hidden-content-page-styles.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/enhanced/hiddencontent/hidden-content-page-styles.js",
+    "bytes": 16422,
+    "sha256": "7427222ff8b69382d609f2565808015bf8956258e44a6997eb7339eee1c8556d"
+  },
+  {
+    "name": "enhanced/hiddencontent/hidden-content-panel.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/enhanced/hiddencontent/hidden-content-panel.js",
+    "bytes": 15270,
+    "sha256": "61bf237953412d0a8e624cf7a935222851e49f68972992ee608aa5d5eb7e11f9"
+  },
+  {
+    "name": "enhanced/hiddencontent/hidden-content-save.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/enhanced/hiddencontent/hidden-content-save.js",
+    "bytes": 13794,
+    "sha256": "e1f4d19c41e1508a3a89a77fc4b94f86f371e0768b869a6ea0cbe33f6e2ca338"
+  },
+  {
+    "name": "enhanced/hiddencontent/hidden-content-styles.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/enhanced/hiddencontent/hidden-content-styles.js",
+    "bytes": 13683,
+    "sha256": "292229f6966d684beddffe790e54e916a86f3e1d6bda8b02c845f810dd057569"
+  },
+  {
+    "name": "enhanced/homeremoval/features-remove-home.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/enhanced/homeremoval/features-remove-home.js",
+    "bytes": 30221,
+    "sha256": "8dc973ed9d5ad2f2718764e79a62ed1a8e40f8399a037d5f32e7e9c2758157a0"
+  },
+  {
+    "name": "enhanced/homeremoval/features-remove-multiselect.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/enhanced/homeremoval/features-remove-multiselect.js",
+    "bytes": 11894,
+    "sha256": "9a2f1c2b8d37bd0133ccd18fa24e4d825b55905b45b41339a8ba9b8614efc475"
+  },
+  {
+    "name": "enhanced/icons.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/enhanced/icons.js",
+    "bytes": 23335,
+    "sha256": "89238ccf7e2810a62ef876c0dbbd71f215ffc9f073ad0ddc6f553abcf2319a16"
+  },
+  {
+    "name": "enhanced/itemdetails/features-details-media-info.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/enhanced/itemdetails/features-details-media-info.js",
+    "bytes": 31398,
+    "sha256": "8bffcfe7e1b0e13a1775df008d3310fecf412c2fe1b3eb7539d81ef209d24fc9"
+  },
+  {
+    "name": "enhanced/itemdetails/features-details-page.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/enhanced/itemdetails/features-details-page.js",
+    "bytes": 13314,
+    "sha256": "87672cea6eeaa47fc50a96167c6490fc0b01a5e1cda9677dd2befc2dbfd7090a"
+  },
+  {
+    "name": "enhanced/itemdetails/features-release-dates.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/enhanced/itemdetails/features-release-dates.js",
+    "bytes": 11537,
+    "sha256": "0b2bf78523f697cf96b08dd85c324e56d815e51a1c0dcdcb61fb0f2cb99318ae"
+  },
+  {
+    "name": "enhanced/native-tabs.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/enhanced/native-tabs.js",
+    "bytes": 12217,
+    "sha256": "8ef547edf03dfac8989685e6beef14b7cf91c804f934ab9a4ae9185e083e3281"
+  },
+  {
+    "name": "enhanced/player/auto-skip.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/enhanced/player/auto-skip.js",
+    "bytes": 26123,
+    "sha256": "8dd3c3f7fa951c53d58244c0168119553e58d199560bfecb85fc68108a016dcf"
+  },
+  {
+    "name": "enhanced/player/osd-rating.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/enhanced/player/osd-rating.js",
+    "bytes": 8169,
+    "sha256": "c82f77ec70f9744c93119b319ee2488063758b60d713e53ca691f679128e6068"
+  },
+  {
+    "name": "enhanced/player/pausescreen.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/enhanced/player/pausescreen.js",
+    "bytes": 37143,
+    "sha256": "8423c408fbe7941764898dd215e8e86d07fa2c60c8034bfc483d3f1386405f32"
+  },
+  {
+    "name": "enhanced/player/playback.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/enhanced/player/playback.js",
+    "bytes": 69924,
+    "sha256": "af549778d96ea5456e5d0ea5673d7bd385b7120532324563f65e74fb22e4028e"
+  },
+  {
+    "name": "enhanced/player/subtitles.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/enhanced/player/subtitles.js",
+    "bytes": 15067,
+    "sha256": "9095b7c78345d6aa9ee446a5c77de9c279b708233b8b950e1d876ca4bcc6ed35"
+  },
+  {
+    "name": "enhanced/settingspanel/ui-entry-points.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/enhanced/settingspanel/ui-entry-points.js",
+    "bytes": 9138,
+    "sha256": "6e9569be1bdd6d480fc95566864a355aa7899e2c60317c523c18c28fb26aa1d1"
+  },
+  {
+    "name": "enhanced/settingspanel/ui-panel-hidden-content.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/enhanced/settingspanel/ui-panel-hidden-content.js",
+    "bytes": 5839,
+    "sha256": "8c5ee8e16152bdcb03e8e5da6056fb3183a458c9ea0566c69d60b4664d91681f"
+  },
+  {
+    "name": "enhanced/settingspanel/ui-panel-language.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/enhanced/settingspanel/ui-panel-language.js",
+    "bytes": 9247,
+    "sha256": "568ce9ffcfded43acf678838c45a6ceed11805e252bb383d4569261c817637e8"
+  },
+  {
+    "name": "enhanced/settingspanel/ui-panel-settings.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/enhanced/settingspanel/ui-panel-settings.js",
+    "bytes": 38038,
+    "sha256": "2af0159134c1916343d293b67df1af4c944141b66ca020dfce150404e35a08d0"
+  },
+  {
+    "name": "enhanced/settingspanel/ui-panel-shortcut-editor.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/enhanced/settingspanel/ui-panel-shortcut-editor.js",
+    "bytes": 9542,
+    "sha256": "48ed95dc225ee302c820ccf135baa2583c7792291bdb26321d939c1eeaff197d"
+  },
+  {
+    "name": "enhanced/settingspanel/ui-panel-template.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/enhanced/settingspanel/ui-panel-template.js",
+    "bytes": 79429,
+    "sha256": "4f12142d907599b640bb47650d9a7d823ac374a4e0cfe7637fb4f5dbb819e97d"
+  },
+  {
+    "name": "enhanced/settingspanel/ui-panel.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/enhanced/settingspanel/ui-panel.js",
+    "bytes": 17046,
+    "sha256": "4b2a153519738f1e4191ee9046d8fbc37b035cf753a22b3c629ec94858ca6db9"
+  },
+  {
+    "name": "enhanced/settingspanel/ui-release-notes.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/enhanced/settingspanel/ui-release-notes.js",
+    "bytes": 10575,
+    "sha256": "7b0cb580dbb7d4c7e94e869f7ea068b79966a7fc4347f38f23f1e65728ae9132"
+  },
+  {
+    "name": "enhanced/spoilerguard/detail-button.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/enhanced/spoilerguard/detail-button.js",
+    "bytes": 7508,
+    "sha256": "6d505b8430e3b90c4d9a297c4ec12ae7272fa880fca9d4618a6ee977520c727c"
+  },
+  {
+    "name": "enhanced/spoilerguard/dialog.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/enhanced/spoilerguard/dialog.js",
+    "bytes": 3267,
+    "sha256": "d38d3336842508f3fa02da75e2d993ad1d35ed6638453694e9c0c2c94deea6e3"
+  },
+  {
+    "name": "enhanced/spoilerguard/identity.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/enhanced/spoilerguard/identity.js",
+    "bytes": 2374,
+    "sha256": "1088023695f5a08ccdadf99eb930f31aec3d7147dfdaf2da0914257c74b140e3"
+  },
+  {
+    "name": "enhanced/spoilerguard/ids.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/enhanced/spoilerguard/ids.js",
+    "bytes": 1141,
+    "sha256": "60f41e44a94fcf4ac47e6c20987988c98a426360d9ae19a1a27f0ddf85587feb"
+  },
+  {
+    "name": "enhanced/spoilerguard/image-refresh.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/enhanced/spoilerguard/image-refresh.js",
+    "bytes": 2667,
+    "sha256": "d8f6f139f46d95eed7fdf0f692cbf2e36885bd4b760d1e909332b3ceac13a46c"
+  },
+  {
+    "name": "enhanced/spoilerguard/index.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/enhanced/spoilerguard/index.js",
+    "bytes": 2090,
+    "sha256": "e24e0bf9d179fb0d748b86f012b753bf94538476d2a10a9b28a8067889938248"
+  },
+  {
+    "name": "enhanced/spoilerguard/seerr-toggle.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/enhanced/spoilerguard/seerr-toggle.js",
+    "bytes": 3450,
+    "sha256": "f9d502cb85f1c9c2e23c8fe0768cae6e3a3e4eda48fef0ccadc59e7dd42dcaac"
+  },
+  {
+    "name": "enhanced/spoilerguard/settings-tab.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/enhanced/spoilerguard/settings-tab.js",
+    "bytes": 9054,
+    "sha256": "889416e3c4060ed8172f485c29886aa3829ff6001ae9c4476771b9c4fdcd75c3"
+  },
+  {
+    "name": "enhanced/spoilerguard/snooze.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/enhanced/spoilerguard/snooze.js",
+    "bytes": 1972,
+    "sha256": "31fc1e85eb262a70a5dac206e2b623a5a56725c44cc961c277c5051f020a2364"
+  },
+  {
+    "name": "enhanced/spoilerguard/state.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/enhanced/spoilerguard/state.js",
+    "bytes": 10151,
+    "sha256": "35e7cf6abce15936e71a8ae17b1afa8be1d7eebbbfab0ca7c866bfedcdc894f6"
+  },
+  {
+    "name": "enhanced/spoilerguard/styles.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/enhanced/spoilerguard/styles.js",
+    "bytes": 2397,
+    "sha256": "766babb04600c8a7d044cfd2eb0a5335dee7835039343e2806deca2adf38b10c"
+  },
+  {
+    "name": "enhanced/spoilerguard/watched-refresh.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/enhanced/spoilerguard/watched-refresh.js",
+    "bytes": 3358,
+    "sha256": "4e9764cdaa9bdfdddc34264d3ac8a6565ba2d198b592618d879e8868bcd87b85"
+  },
+  {
+    "name": "enhanced/themer.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/enhanced/themer.js",
+    "bytes": 7758,
+    "sha256": "87feb79ea09ac9fa6c11a5e3268641953de13de5b328c8d5d4da0d93ca027c30"
+  },
+  {
+    "name": "enhanced/translations.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/enhanced/translations.js",
+    "bytes": 10381,
+    "sha256": "fb5834c564a1aabc7c180737330331aaee25cf213c2da94d9b0b455d79512f49"
+  },
+  {
+    "name": "enhanced/ui-styles.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/enhanced/ui-styles.js",
+    "bytes": 12198,
+    "sha256": "dfa7e8bb036231e3c3781443bd7e788907564f4458f6f285d56b1f89e37352ef"
+  },
+  {
+    "name": "extras/active-streams.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/extras/active-streams.js",
+    "bytes": 46919,
+    "sha256": "a8d3c407e6770ff499071bca42af46aff814b5a1b0326a677c087f7976e186d0"
+  },
+  {
+    "name": "extras/activity-custom-tab.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/extras/activity-custom-tab.js",
+    "bytes": 5907,
+    "sha256": "d151fa21219de9701c25b6ebd1be2c922f306561540ddf0b252672f98bb78deb"
+  },
+  {
+    "name": "extras/activity-page.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/extras/activity-page.js",
+    "bytes": 27028,
+    "sha256": "ce80afa2c0338cd45f2c1c70ea52c6bbd78732e435c33dd66ee165f1c4f5a376"
+  },
+  {
+    "name": "extras/colored-activity-icons.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/extras/colored-activity-icons.js",
+    "bytes": 29297,
+    "sha256": "431d16eb8ade2be7a81db8927bda29aafa3854a3d09cad8a7ddd1deed52b79ab"
+  },
+  {
+    "name": "extras/colored-ratings.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/extras/colored-ratings.js",
+    "bytes": 10561,
+    "sha256": "a78afde59da8fa36191a1bfd7842c4fb87002888f38365d5b0d8dc73768df117"
+  },
+  {
+    "name": "extras/login-image.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/extras/login-image.js",
+    "bytes": 18954,
+    "sha256": "01a4aff27a1d4d1222a4f10e43a9ee44fdd20d32b419b7d3c43ac2f4d9cf8639"
+  },
+  {
+    "name": "extras/plugin-icons.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/extras/plugin-icons.js",
+    "bytes": 14536,
+    "sha256": "2b421cc6c207db988e65cc6778b6d7ef3807adc381451f9e0cbcbeb362a8d7c1"
+  },
+  {
+    "name": "extras/plugin-revisions.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/extras/plugin-revisions.js",
+    "bytes": 2691,
+    "sha256": "ecb67f53b650fe1bd73119bccfa25b2cf92085e16f49d130896dc8079d124626"
+  },
+  {
+    "name": "extras/theme-selector.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/extras/theme-selector.js",
+    "bytes": 17047,
+    "sha256": "2cedcc72c5f890489b7a898608c96ae14afa5bfe468bc9024b474dbb88f1e816"
+  },
+  {
+    "name": "jellyseerr/api.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/jellyseerr/api.js",
+    "bytes": 41401,
+    "sha256": "03012cb6874183180ba4039a003e9d206f19c55742f80afa540eea1314f5c36c"
+  },
+  {
+    "name": "jellyseerr/discovery/collection-discovery.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/jellyseerr/discovery/collection-discovery.js",
+    "bytes": 8646,
+    "sha256": "3032d607662c96edf06519a2ec6f06f6952726e925782f35ccad61d8a07849ae"
+  },
+  {
+    "name": "jellyseerr/discovery/discovery-base.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/jellyseerr/discovery/discovery-base.js",
+    "bytes": 66251,
+    "sha256": "2889608f577e54ec2b44b454366a0d3a1e5c33bfd6b361b760962644e064a44f"
+  },
+  {
+    "name": "jellyseerr/discovery/discovery-filter-utils.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/jellyseerr/discovery/discovery-filter-utils.js",
+    "bytes": 26989,
+    "sha256": "ebf437f6b3ea6f1d3539478a82b520d273052abdbb3c9574d8aec39d6b8ca394"
+  },
+  {
+    "name": "jellyseerr/discovery/genre-discovery.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/jellyseerr/discovery/genre-discovery.js",
+    "bytes": 6352,
+    "sha256": "8ac2014d6d6cd9278ffca5bc258df1e19b5c20fd55b2c786f42a2bec6511d893"
+  },
+  {
+    "name": "jellyseerr/discovery/network-discovery.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/jellyseerr/discovery/network-discovery.js",
+    "bytes": 7659,
+    "sha256": "0d810a5f34fe519215e65b42cf5745ddab78eafba06595483bf80d6ba00c95d0"
+  },
+  {
+    "name": "jellyseerr/discovery/person-discovery.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/jellyseerr/discovery/person-discovery.js",
+    "bytes": 7727,
+    "sha256": "8659b15be6a3b217fdbce17fcfd9874551f2922ae948ad18a39bee6bed5d068a"
+  },
+  {
+    "name": "jellyseerr/discovery/tag-discovery.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/jellyseerr/discovery/tag-discovery.js",
+    "bytes": 3848,
+    "sha256": "1e5141da22bf630f3c04bb6937012024f8d0b72d35fbc9e3fbf96f6f9a0896d5"
+  },
+  {
+    "name": "jellyseerr/hss-discovery-handler.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/jellyseerr/hss-discovery-handler.js",
+    "bytes": 1423,
+    "sha256": "21703127cb7736f654ec643ff0d072a512db53b6a4336b591818f153e2ad11c3"
+  },
+  {
+    "name": "jellyseerr/issue-reporter.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/jellyseerr/issue-reporter.js",
+    "bytes": 58358,
+    "sha256": "d0e1d02ed6874b971dd5f0b7dea7cd7e43ce4baed201e629d4d03f54202dba72"
+  },
+  {
+    "name": "jellyseerr/item-details.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/jellyseerr/item-details.js",
+    "bytes": 31774,
+    "sha256": "f2c6946bff5f0106c06a0a3fc65aa298869487062c0053b1c5af3db4bf919a74"
+  },
+  {
+    "name": "jellyseerr/jellyseerr.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/jellyseerr/jellyseerr.js",
+    "bytes": 40763,
+    "sha256": "128b9146ed827c678d7bf57dcdd2410060cd4be54548e8ce046211118ec55a51"
+  },
+  {
+    "name": "jellyseerr/modal.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/jellyseerr/modal.js",
+    "bytes": 14812,
+    "sha256": "6a975d9e54c64c8119ea75ef79352a24d9c6538bdb5422e44904a05daed857e8"
+  },
+  {
+    "name": "jellyseerr/moreinfo/more-info-modal-actions-tv.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/jellyseerr/moreinfo/more-info-modal-actions-tv.js",
+    "bytes": 12358,
+    "sha256": "804189a1f1d55adc187e51d208aa6b4faee71aab5d4c61c8e69c74001eb1c9cd"
+  },
+  {
+    "name": "jellyseerr/moreinfo/more-info-modal-actions.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/jellyseerr/moreinfo/more-info-modal-actions.js",
+    "bytes": 23875,
+    "sha256": "7c363a6f7cded5a6bf035677d41715eefad109414c1ee698cd11f6ccf989aea1"
+  },
+  {
+    "name": "jellyseerr/moreinfo/more-info-modal-badges.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/jellyseerr/moreinfo/more-info-modal-badges.js",
+    "bytes": 48880,
+    "sha256": "3fe28bee2f2aa9a21da0c9f067a08aa20f36352d6834818b52a916230e8782b6"
+  },
+  {
+    "name": "jellyseerr/moreinfo/more-info-modal-data.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/jellyseerr/moreinfo/more-info-modal-data.js",
+    "bytes": 6393,
+    "sha256": "8ab1be3d95b7824cf9c5848c1c5f30d9cc875a66dd8748620504bd9c41e3fc0e"
+  },
+  {
+    "name": "jellyseerr/moreinfo/more-info-modal-init.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/jellyseerr/moreinfo/more-info-modal-init.js",
+    "bytes": 9012,
+    "sha256": "b3c85f96d27f42ead0bb75a5dd430b810fd6d3fb495e57a86cfd308d37dd916b"
+  },
+  {
+    "name": "jellyseerr/moreinfo/more-info-modal-render.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/jellyseerr/moreinfo/more-info-modal-render.js",
+    "bytes": 19060,
+    "sha256": "fee84d942061a2abfdbbe392e42dddc1986c787dbba7da860ff06d2ae04e2a95"
+  },
+  {
+    "name": "jellyseerr/moreinfo/more-info-modal-seasons.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/jellyseerr/moreinfo/more-info-modal-seasons.js",
+    "bytes": 19663,
+    "sha256": "216ec2df653d1aa9494825fedd87d1c0f2e02603b6a3dd527273243d9768f4ac"
+  },
+  {
+    "name": "jellyseerr/moreinfo/more-info-modal-styles.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/jellyseerr/moreinfo/more-info-modal-styles.js",
+    "bytes": 33666,
+    "sha256": "8ad902e104d19a14d63afc60c3ae757914781cd1f181bcff8ddbbd5d032dfa61"
+  },
+  {
+    "name": "jellyseerr/recommendations/recommendations-catalog.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/jellyseerr/recommendations/recommendations-catalog.js",
+    "bytes": 4826,
+    "sha256": "3d0817a6c06e613bd398dea773b7b82916df9a59d28b4899857148f4ef75c7b9"
+  },
+  {
+    "name": "jellyseerr/recommendations/recommendations-category.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/jellyseerr/recommendations/recommendations-category.js",
+    "bytes": 17284,
+    "sha256": "09e9bd3c84f2b3f865c4c00d306c6bfc9da7bf4668498034dae3eefdc2dbca6f"
+  },
+  {
+    "name": "jellyseerr/recommendations/recommendations-custom-tab.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/jellyseerr/recommendations/recommendations-custom-tab.js",
+    "bytes": 5477,
+    "sha256": "1a93aff688ca6720466140f412eed21733470bbb7a92c169a07f66c0b5921693"
+  },
+  {
+    "name": "jellyseerr/recommendations/recommendations-data.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/jellyseerr/recommendations/recommendations-data.js",
+    "bytes": 3777,
+    "sha256": "8acd9b4e0a49cd087df9c067ae85efe1f799e07e1e6d12053f234e709465be91"
+  },
+  {
+    "name": "jellyseerr/recommendations/recommendations-init.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/jellyseerr/recommendations/recommendations-init.js",
+    "bytes": 4833,
+    "sha256": "a219026dd2a09fef6d1d24903e40536329916db7be18e151335726fa3a9401d9"
+  },
+  {
+    "name": "jellyseerr/recommendations/recommendations-page.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/jellyseerr/recommendations/recommendations-page.js",
+    "bytes": 3808,
+    "sha256": "912fd2a49f7b93de6324faee2a03f952c5af4db4b8319188cbd41ba704696ada"
+  },
+  {
+    "name": "jellyseerr/recommendations/recommendations-render.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/jellyseerr/recommendations/recommendations-render.js",
+    "bytes": 14523,
+    "sha256": "81f819a9bb5fd00d7d27896b6a479a1fe7717e48af2dbd96d6bfb9c52cbef4b2"
+  },
+  {
+    "name": "jellyseerr/recommendations/recommendations-styles.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/jellyseerr/recommendations/recommendations-styles.js",
+    "bytes": 2931,
+    "sha256": "71e697e24d6a08f9bd17671f419b93f98f6a6ad107c32a7736434a26af879286"
+  },
+  {
+    "name": "jellyseerr/request-manager.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/jellyseerr/request-manager.js",
+    "bytes": 569,
+    "sha256": "2e92c5c10337f6d09490792564a1162b34c24e2d53268771d09dbbfb46b79333"
+  },
+  {
+    "name": "jellyseerr/seamless-scroll.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/jellyseerr/seamless-scroll.js",
+    "bytes": 26348,
+    "sha256": "29e58d2dc00131bb7640aab9a02a3a7eaa6a6e416f3a8a0dc98f1ef9796f6574"
+  },
+  {
+    "name": "jellyseerr/seerr-detail-link.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/jellyseerr/seerr-detail-link.js",
+    "bytes": 7290,
+    "sha256": "e9be07feff57716c64305508d2dad96703fd8f9b74002ec59e57e56d91a4787b"
+  },
+  {
+    "name": "jellyseerr/seerr-status.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/jellyseerr/seerr-status.js",
+    "bytes": 15767,
+    "sha256": "1bcd86f3f833479056bad6c5bf50dd111c75a4a157468cee7f4ba04bd8817a41"
+  },
+  {
+    "name": "jellyseerr/ui/ui-badges.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/jellyseerr/ui/ui-badges.js",
+    "bytes": 8696,
+    "sha256": "7d3b73cb37825040a31946613e91fd3a2ba57ed2122eb277a179ded978293c82"
+  },
+  {
+    "name": "jellyseerr/ui/ui-buttons.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/jellyseerr/ui/ui-buttons.js",
+    "bytes": 18408,
+    "sha256": "33d01097f9fb92d2500eb1f99dddbbd594a29b64f2cc4295efa2887a006af335"
+  },
+  {
+    "name": "jellyseerr/ui/ui-cards.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/jellyseerr/ui/ui-cards.js",
+    "bytes": 25539,
+    "sha256": "6925c15297039409e92c6955cfdd233b839ce7ca8016ad9bb906449788dca03a"
+  },
+  {
+    "name": "jellyseerr/ui/ui-icons.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/jellyseerr/ui/ui-icons.js",
+    "bytes": 5132,
+    "sha256": "fd1cc744afd66b382cfdaa6da46a64880966debe7f58293ad8850cf831bf35ac"
+  },
+  {
+    "name": "jellyseerr/ui/ui-popover.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/jellyseerr/ui/ui-popover.js",
+    "bytes": 14372,
+    "sha256": "498564b878feed344f29182bf824daba3a16f7f2eedcdd43ac5ac255fb878b58"
+  },
+  {
+    "name": "jellyseerr/ui/ui-quota.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/jellyseerr/ui/ui-quota.js",
+    "bytes": 7264,
+    "sha256": "a847323f1f821c64d69949026b50fc87ba939928bb8d886ae5109a654d8b5c34"
+  },
+  {
+    "name": "jellyseerr/ui/ui-request-modals.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/jellyseerr/ui/ui-request-modals.js",
+    "bytes": 15642,
+    "sha256": "6b6336ef0de6fffee87184827fb56e16f52767dee9ab56717683d2d24685f199"
+  },
+  {
+    "name": "jellyseerr/ui/ui-results.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/jellyseerr/ui/ui-results.js",
+    "bytes": 22984,
+    "sha256": "593c9f27e5e3da8d6f8b1d42ad7db4734defecffb4e71ef6cdd1a022471da778"
+  },
+  {
+    "name": "jellyseerr/ui/ui-season-modal.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/jellyseerr/ui/ui-season-modal.js",
+    "bytes": 23472,
+    "sha256": "bd200a62e70d427851e393b41de510142422ccc05fd18f15104a0b65fadf874f"
+  },
+  {
+    "name": "jellyseerr/ui/ui-styles.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/jellyseerr/ui/ui-styles.js",
+    "bytes": 35210,
+    "sha256": "e88e8d8f33b7d86d07eb118cb293d398896998bc494f74c41205c766b856009f"
+  },
+  {
+    "name": "others/letterboxd-links.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/others/letterboxd-links.js",
+    "bytes": 8463,
+    "sha256": "417de24b149d35ee70c8af2cd3eebe5e04735d638ad2ab37c8301410968e7bbc"
+  },
+  {
+    "name": "others/mdblist-ratings.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/others/mdblist-ratings.js",
+    "bytes": 19629,
+    "sha256": "79e1f16e34c2c858873abe27b0989b7d74e8b2aea0e1d65672adf9dd19d650fc"
+  },
+  {
+    "name": "others/splashscreen.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/others/splashscreen.js",
+    "bytes": 14473,
+    "sha256": "7b8bc89956dba73c3c42e6a3454583696d27d0c2aa844fda5dcdff26b89e611a"
+  },
+  {
+    "name": "tags/genretags.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/tags/genretags.js",
+    "bytes": 16399,
+    "sha256": "9624d29a2e4ef5eb02582385566f18d8f5fdbdba134d5b2ea54af08e970bf2a3"
+  },
+  {
+    "name": "tags/languagetags.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/tags/languagetags.js",
+    "bytes": 16023,
+    "sha256": "dbf43692c1e2dad75aa98b2efea13e90f68f22f6b3cde67c95df0aed1ca26b3b"
+  },
+  {
+    "name": "tags/peopletags.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/tags/peopletags.js",
+    "bytes": 26382,
+    "sha256": "9096e63c5d26d252cd0966bd2a251cef4bc29ceae0f5af88a801c7e63469f94b"
+  },
+  {
+    "name": "tags/qualitytags.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/tags/qualitytags.js",
+    "bytes": 38557,
+    "sha256": "8b9619cc22b8197eff98f2d5a564a86381c594757d08691056e87655ecb3a60a"
+  },
+  {
+    "name": "tags/ratingtags.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/tags/ratingtags.js",
+    "bytes": 20116,
+    "sha256": "01ee21fcf78418823548e0d6bfee0ae28c3cc00eed1b2dfc0b98511b71dc1c7f"
+  },
+  {
+    "name": "tags/tag-pipeline.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/tags/tag-pipeline.js",
+    "bytes": 44663,
+    "sha256": "aebe31c15af7541913fe4e60aa906de28576b50928a5da3df3e97c5d36149b20"
+  },
+  {
+    "name": "tags/userreviewtags.js",
+    "source": "https://jellyfin.xtremestudios.net/JellyfinEnhanced/js/tags/userreviewtags.js",
+    "bytes": 8395,
+    "sha256": "cfd219e2a57cf252152c8c6aa0e523d397eecf02d19a67d0a58a4b0a89cc96aa"
+  }
+]

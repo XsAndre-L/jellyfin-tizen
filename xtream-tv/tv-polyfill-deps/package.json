@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@formatjs/intl-displaynames": "^7.3.15"
+  }
+}

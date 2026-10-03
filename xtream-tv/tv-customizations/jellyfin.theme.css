@@ -1,0 +1,136 @@
+/* Persistent theme entry point. Keep imports in cascade order. */
+@import url("./abyss.css?v=ac84b884");
+@import url("./media-bar-guard.css?v=stored-avatars-1");
+
+/* Custom overrides below. CSS @import rules must stay above ordinary rules. */
+
+/* Hide community and critic scores in the Media Bar. */
+#slides-container .star-rating-container,
+#slides-container .critic-rating,
+#slides-container .star-rating-container + .separator-icon,
+#slides-container .critic-rating + .separator-icon {
+    display: none !important;
+}
+
+/* Bridge Media Bar's custom controls to Abyss. Keep upstream abyss.css intact.
+   Explicit priority prevents the plugin's later stylesheet from winning.
+   Preserve 77% background opacity without fading labels or icons. */
+#slides-container :is(.button-container button, .pause-button, .mute-button, .arrow) {
+    background: rgba(40, 40, 40, 0.77) !important;
+    color: rgb(var(--abyss-accent)) !important;
+    border: 1px solid rgba(245, 245, 247, 0.2) !important;
+    border-radius: var(--abyss-radius) !important;
+    font-family: "Google Sans", sans-serif !important;
+    transition: background 0.37s var(--abyss-ease),
+        color 0.37s var(--abyss-ease),
+        border-color 0.37s var(--abyss-ease),
+        box-shadow 0.37s var(--abyss-ease) !important;
+}
+
+#slides-container .button-container button {
+    opacity: 1 !important;
+}
+
+#slides-container .button-container .play-button {
+    background: rgba(255, 255, 255, 0.77) !important;
+    color: #111 !important;
+}
+
+#slides-container .button-container .favorite-button.favorited {
+    color: rgb(249, 38, 114) !important;
+}
+
+#slides-container :is(.play-button, .detail-button, .favorite-button)::before {
+    font-family: "Material Icons Round" !important;
+}
+
+@media (hover: hover) {
+    #slides-container :is(.button-container button, .pause-button, .mute-button, .arrow):hover {
+        background: rgba(var(--abyss-accent), 0.77) !important;
+        color: #121212 !important;
+        box-shadow: 0 0 20px rgba(var(--abyss-accent), 0.25) !important;
+    }
+}
+
+#slides-container :is(.button-container button, .pause-button, .mute-button, .arrow):focus-visible {
+    outline: 2px solid rgb(var(--abyss-accent)) !important;
+    outline-offset: 3px !important;
+}
+
+/* Keep mobile Media Bar actions readable instead of squeezing their labels. */
+@media (max-width: 767px) and (orientation: portrait) {
+    #slides-container .button-container {
+        width: calc(100% - 24px);
+        max-width: calc(100vw - 24px);
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+    }
+
+    #slides-container .play-button,
+    #slides-container .trailer-button {
+        flex: 0 0 auto;
+        width: auto !important;
+        max-width: none !important;
+        min-height: 48px;
+        box-sizing: border-box;
+        padding: 10px 14px !important;
+        font-size: 16px;
+        line-height: 1.25;
+        white-space: nowrap;
+    }
+}
+
+/* ==========================================================================
+   LOGIN SCREEN ONLY
+   Add login styling inside this block. Every nested rule is gated by the
+   visible login page, including rules for shared elements outside #loginPage.
+   ==========================================================================*/
+body:has(#loginPage:not(.hide)) {
+    & #loginPage {
+        padding-block: 0 !important;
+    }
+
+    /* Position the form using equal grid space, then move ALL login content
+       (the entire form box and every action below it) up 27px as one unit.
+       Keep this transform on the shared content wrapper: #loginPage owns
+       the background and must not move. */
+    & #loginPage > .padded-left.padded-right.padded-bottom-page {
+        display: grid !important;
+        grid-template-rows: minmax(0, 1fr) auto minmax(0, 1fr) !important;
+        min-height: 100dvh !important;
+        height: 100dvh !important;
+        box-sizing: border-box !important;
+        margin-block: 0 !important;
+        padding-block: 0 !important;
+        transform: translateY(-27px) !important;
+    }
+
+    & #loginPage .manualLoginForm,
+    & #loginPage .visualLoginForm {
+        grid-row: 2 !important;
+        margin-block: 0 !important;
+        width: 100% !important;
+        box-sizing: border-box !important;
+    }
+
+    /* Preserve Abyss's 22em content width plus its padding and border. */
+    & #loginPage .manualLoginForm {
+        max-width: calc(22em + 26px) !important;
+    }
+
+    & #loginPage .readOnlyContent {
+        grid-row: 3 !important;
+        align-self: start !important;
+        margin-top: 24px !important;
+        width: 100% !important;
+    }
+
+    /* Hide Jellyfin's shared header and its layout spacer during login. */
+    & .skinHeader,
+    & header.MuiAppBar-root,
+    & header.MuiAppBar-root + div[aria-hidden="true"] {
+        display: none !important;
+    }
+}

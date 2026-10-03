@@ -2,3 +2,8 @@
 www
 .*
 node_modules
+
+xtream-tv/jellyfin-tv-custom-build/
+xtream-tv/jellyfin-tv-custom-build-report.json
+xtream-tv/tv-customizations/polyfills-entry.cjs
+xtream-tv/tv-customizations/fonts/download-*

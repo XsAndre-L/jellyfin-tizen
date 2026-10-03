@@ -1,0 +1,72 @@
+/* Local to the signed TV package. Pixel sizes avoid Jellyfin TV's 27px rem
+   multiplying the desktop Bonfire spacing and leaving its footer offscreen. */
+.layout-tv.jpf-tv #profiles-gate-overlay { font-family: "Google Sans", sans-serif; padding: 32px 0; }
+.layout-tv.jpf-tv .profiles-modal-content { width: 90%; max-width: 1600px; }
+.layout-tv.jpf-tv, .layout-tv.jpf-tv body { --jpf-w-wide: 1600px; }
+.layout-tv.jpf-tv .profiles-title { font-size: 56px; margin-top: 0; margin-bottom: 28px; }
+.layout-tv.jpf-tv .profiles-home-section { padding: 24px 28px; margin-bottom: 28px; }
+.layout-tv.jpf-tv .profiles-home-header { margin-bottom: 24px; padding-bottom: 16px; }
+.layout-tv.jpf-tv .profiles-home-title { font-size: 28px; }
+.layout-tv.jpf-tv .profile-card { width: 240px; }
+.layout-tv.jpf-tv .profile-avatar-container { width: 220px; height: 220px; }
+.layout-tv.jpf-tv .profile-avatar-container { will-change: transform; }
+.layout-tv.jpf-tv .profile-name { font-size: 28px; margin-top: 16px; }
+.layout-tv.jpf-tv .profiles-grid { gap: 28px; }
+.layout-tv.jpf-no-flex-gap.jpf-tv .profiles-grid > * { margin: 0 14px 28px; }
+.layout-tv.jpf-tv .profiles-footer { margin-top: 8px; }
+.layout-tv.jpf-tv .profiles-btn { font-size: 28px; padding: 14px 28px; }
+.layout-tv.jpf-no-flex-gap.jpf-tv .profiles-footer > * { margin: 0 12px 16px; }
+
+/* Feature queries accept grid gaps on Chromium 76 even though flex gaps
+   do nothing. The adapter measures flex support and supplies these margins. */
+.xtream-tv-no-flex-gap .xtream-tv-gap-row > * + * { margin-left: var(--xtream-gap-x) !important; }
+.xtream-tv-no-flex-gap .xtream-tv-gap-column > * + * { margin-top: var(--xtream-gap-y) !important; }
+.xtream-tv-no-flex-gap .xtream-tv-gap-wrap > * {
+    margin-left: calc(var(--xtream-gap-x) / 2) !important;
+    margin-right: calc(var(--xtream-gap-x) / 2) !important;
+    margin-top: calc(var(--xtream-gap-y) / 2) !important;
+    margin-bottom: calc(var(--xtream-gap-y) / 2) !important;
+}
+.xtream-tv-no-flex-gap #slides-container .play-button::before,
+.xtream-tv-no-flex-gap #slides-container .trailer-button::before { margin-right: 6px; }
+
+/* The old engine drops min() and aspect-ratio, collapsing this preview. */
+.layout-tv .video-backdrop-default {
+    width: var(--xtream-preview-width) !important;
+    height: var(--xtream-preview-height) !important;
+    min-height: 0 !important;
+    max-width: none;
+}
+.layout-tv .video-modal-content { width: var(--xtream-modal-width); height: var(--xtream-modal-height); }
+.layout-tv .searchSuggestionsList { min-width: 0; width: 908px; max-width: calc(100vw - 70px); }
+.layout-tv .detailPageSecondaryContainer.padded-left { padding-left: 32.45vw; }
+.layout-tv .headerUserButton:focus, .layout-tv #profiles-floating-bubble:focus { margin-top: 0 !important; margin-bottom: 0 !important; }
+
+/* Keep the existing effects, but show remote focus feedback promptly. */
+.layout-tv .card .cardBox, .layout-tv .card .cardScalable,
+.layout-tv .card:focus .cardBox, .layout-tv .card:focus .cardScalable,
+.layout-tv .card:focus .cardBox.visualCardBox,
+.layout-tv .card:focus .cardBox:not(.visualCardBox) .cardScalable,
+.layout-tv #slides-container button, .layout-tv #slides-container button:focus,
+.layout-tv .profiles-btn, .layout-tv .profile-card, .layout-tv .profile-avatar,
+.layout-tv .profile-avatar-container, .layout-tv .headerButton,
+.layout-tv .media-bar-settings-button, .layout-tv .media-bar-settings-button:focus {
+    transition-duration: 80ms !important;
+    transition-delay: 0ms !important;
+}
+/* Hold the current frame during navigation; the effect resumes after input. */
+.layout-tv #slides-container.xtream-tv-navigating .backdrop.animate {
+    animation-play-state: paused !important;
+}
+/* Bonfire covers the page with an opaque background; keep the hidden hero
+   at its current frame until the profile selector closes. */
+.layout-tv.profiles-no-scroll #slides-container .backdrop.animate,
+.layout-tv.profiles-no-scroll #slides-container .logo.animate {
+    animation-play-state: paused !important;
+}
+/* Bonfire's gate is opaque and a direct child of body. These roots can
+   retain their DOM and state without painting behind the gate. */
+.layout-tv.xtream-tv-profile-cover #reactRoot,
+.layout-tv.xtream-tv-profile-cover #slides-container {
+    display: none !important;
+}

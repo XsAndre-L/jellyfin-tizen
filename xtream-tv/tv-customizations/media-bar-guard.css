@@ -1,0 +1,6 @@
+/* Media Bar Enhanced 3.8 creates its overlay before checking the route.
+   Keep it hidden until its visibility observer explicitly shows it on Home. */
+#slides-container:not([style*="visibility: visible"]) {
+    display: none !important;
+    pointer-events: none !important;
+}
